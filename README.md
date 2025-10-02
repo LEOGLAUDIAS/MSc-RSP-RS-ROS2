@@ -1,1 +1,2 @@
-# MSc-RSP-RS-ROS2
+# Assignment
+Robotics Simulations Using ROS2 (TheConstruct.ai)
