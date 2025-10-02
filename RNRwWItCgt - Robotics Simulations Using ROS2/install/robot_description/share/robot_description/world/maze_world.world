@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="maze_world">
+
+    <!-- Sun + ground -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Maze walls (explicitly defined boxes) -->
+    <model name="wall_east">
+      <pose>2 0 0.5 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>4 0.2 1</size></box></geometry>
+          <material><ambient>0.7 0.7 0.7 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><box><size>4 0.2 1</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="wall_west">
+      <pose>-2 0 0.5 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>4 0.2 1</size></box></geometry>
+          <material><ambient>0.7 0.7 0.7 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><box><size>4 0.2 1</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="wall_north">
+      <pose>0 2 0.5 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>0.2 4 1</size></box></geometry>
+          <material><ambient>0.7 0.7 0.7 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><box><size>0.2 4 1</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="wall_south">
+      <pose>0 -2 0.5 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>0.2 4 1</size></box></geometry>
+          <material><ambient>0.7 0.7 0.7 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><box><size>0.2 4 1</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- Cylindrical obstacles (explicit definition) -->
+    <model name="cylinder1">
+      <pose>1 1 0.5 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder><radius>0.3</radius><length>1.0</length></cylinder></geometry>
+          <material><ambient>0.2 0.6 0.8 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder><radius>0.3</radius><length>1.0</length></cylinder></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="cylinder2">
+      <pose>-1 -1 0.5 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder><radius>0.3</radius><length>1.0</length></cylinder></geometry>
+          <material><ambient>0.8 0.2 0.2 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder><radius>0.3</radius><length>1.0</length></cylinder></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- Physics -->
+    <physics name="default_physics" type="ode">
+      <gravity>0 0 -9.81</gravity>
+      <max_step_size>0.001</max_step_size>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+
+  </world>
+</sdf>

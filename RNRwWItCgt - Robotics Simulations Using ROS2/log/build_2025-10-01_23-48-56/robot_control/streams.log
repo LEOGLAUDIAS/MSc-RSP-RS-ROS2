@@ -1,0 +1,33 @@
+[1.878s] Invoking command in '/home/user/ros2_ws/build/robot_control': PYTHONPATH=/home/user/ros2_ws/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/user/ros2_ws/build/robot_control/build
+[2.242s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[2.242s]   warnings.warn(msg)
+[2.560s] running develop
+[3.059s] Removing /home/user/ros2_ws/install/robot_control/lib/python3.10/site-packages/robot-control.egg-link (link to .)
+[3.092s] Invoked command in '/home/user/ros2_ws/build/robot_control' returned '0': PYTHONPATH=/home/user/ros2_ws/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/user/ros2_ws/build/robot_control/build
+[3.094s] Invoking command in '/home/user/ros2_ws/src/robot_control': PYTHONPATH=/home/user/ros2_ws/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/user/ros2_ws/build/robot_control/build install --record /home/user/ros2_ws/build/robot_control/install.log --single-version-externally-managed install_data --force
+[3.300s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[3.300s]   warnings.warn(msg)
+[3.419s] running egg_info
+[3.438s] writing ../../build/robot_control/robot_control.egg-info/PKG-INFO
+[3.438s] writing dependency_links to ../../build/robot_control/robot_control.egg-info/dependency_links.txt
+[3.439s] writing requirements to ../../build/robot_control/robot_control.egg-info/requires.txt
+[3.439s] writing top-level names to ../../build/robot_control/robot_control.egg-info/top_level.txt
+[3.478s] reading manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[3.480s] writing manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[3.480s] running build
+[3.480s] running build_py
+[3.481s] creating /home/user/ros2_ws/build/robot_control/build/lib/robot_control
+[3.481s] copying robot_control/__init__.py -> /home/user/ros2_ws/build/robot_control/build/lib/robot_control
+[3.481s] running install
+[3.485s] running install_lib
+[3.504s] creating /home/user/ros2_ws/install/robot_control/lib/python3.10/site-packages/robot_control
+[3.504s] copying /home/user/ros2_ws/build/robot_control/build/lib/robot_control/__init__.py -> /home/user/ros2_ws/install/robot_control/lib/python3.10/site-packages/robot_control
+[3.505s] byte-compiling /home/user/ros2_ws/install/robot_control/lib/python3.10/site-packages/robot_control/__init__.py to __init__.cpython-310.pyc
+[3.505s] running install_data
+[3.506s] copying resource/robot_control -> /home/user/ros2_ws/install/robot_control/share/ament_index/resource_index/packages
+[3.506s] copying package.xml -> /home/user/ros2_ws/install/robot_control/share/robot_control
+[3.506s] running install_egg_info
+[3.528s] Copying ../../build/robot_control/robot_control.egg-info to /home/user/ros2_ws/install/robot_control/lib/python3.10/site-packages/robot_control-0.0.0-py3.10.egg-info
+[3.529s] running install_scripts
+[3.707s] writing list of installed files to '/home/user/ros2_ws/build/robot_control/install.log'
+[3.738s] Invoked command in '/home/user/ros2_ws/src/robot_control' returned '0': PYTHONPATH=/home/user/ros2_ws/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/user/ros2_ws/build/robot_control/build install --record /home/user/ros2_ws/build/robot_control/install.log --single-version-externally-managed install_data --force

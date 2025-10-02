@@ -1,0 +1,19 @@
+[1.192s] Invoking command in '/home/user/ros2_ws/build/robot_description': PYTHONPATH=/home/user/ros2_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/robot_description/build --no-deps symlink_data
+[1.700s] running develop
+[2.028s] running egg_info
+[2.056s] writing robot_description.egg-info/PKG-INFO
+[2.058s] writing dependency_links to robot_description.egg-info/dependency_links.txt
+[2.058s] writing requirements to robot_description.egg-info/requires.txt
+[2.058s] writing top-level names to robot_description.egg-info/top_level.txt
+[2.105s] reading manifest file 'robot_description.egg-info/SOURCES.txt'
+[2.107s] writing manifest file 'robot_description.egg-info/SOURCES.txt'
+[2.140s] running build_ext
+[2.140s] Creating /home/user/ros2_ws/install/robot_description/lib/python3.10/site-packages/robot-description.egg-link (link to .)
+[2.141s] 
+[2.141s] Installed /home/user/ros2_ws/build/robot_description
+[2.141s] running symlink_data
+[2.142s] creating /home/user/ros2_ws/install/robot_description/share/robot_description/urdf
+[2.142s] symbolically linking /home/user/ros2_ws/build/robot_description/urdf/two_wheeler_robot.urdf -> /home/user/ros2_ws/install/robot_description/share/robot_description/urdf
+[2.143s] creating /home/user/ros2_ws/install/robot_description/share/robot_description/world
+[2.143s] symbolically linking /home/user/ros2_ws/build/robot_description/world/maze_world.world -> /home/user/ros2_ws/install/robot_description/share/robot_description/world
+[2.186s] Invoked command in '/home/user/ros2_ws/build/robot_description' returned '0': PYTHONPATH=/home/user/ros2_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/robot_description/build --no-deps symlink_data

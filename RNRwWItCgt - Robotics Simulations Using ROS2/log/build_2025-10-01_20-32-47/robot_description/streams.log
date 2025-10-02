@@ -1,0 +1,22 @@
+[2.526s] Invoking command in '/home/user/ros2_ws/build/robot_description': PYTHONPATH=/home/user/ros2_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/robot_description/build --no-deps symlink_data
+[2.917s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[2.917s]   warnings.warn(msg)
+[3.421s] running develop
+[4.117s] running egg_info
+[4.149s] creating robot_description.egg-info
+[4.150s] writing robot_description.egg-info/PKG-INFO
+[4.150s] writing dependency_links to robot_description.egg-info/dependency_links.txt
+[4.150s] writing requirements to robot_description.egg-info/requires.txt
+[4.151s] writing top-level names to robot_description.egg-info/top_level.txt
+[4.151s] writing manifest file 'robot_description.egg-info/SOURCES.txt'
+[4.252s] reading manifest file 'robot_description.egg-info/SOURCES.txt'
+[4.253s] writing manifest file 'robot_description.egg-info/SOURCES.txt'
+[4.314s] running build_ext
+[4.314s] Creating /home/user/ros2_ws/install/robot_description/lib/python3.10/site-packages/robot-description.egg-link (link to .)
+[4.315s] 
+[4.315s] Installed /home/user/ros2_ws/build/robot_description
+[4.315s] running symlink_data
+[4.315s] creating /home/user/ros2_ws/install/robot_description/share/ament_index/resource_index/packages
+[4.315s] symbolically linking /home/user/ros2_ws/build/robot_description/resource/robot_description -> /home/user/ros2_ws/install/robot_description/share/ament_index/resource_index/packages
+[4.316s] symbolically linking /home/user/ros2_ws/build/robot_description/package.xml -> /home/user/ros2_ws/install/robot_description/share/robot_description
+[4.367s] Invoked command in '/home/user/ros2_ws/build/robot_description' returned '0': PYTHONPATH=/home/user/ros2_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/robot_description/build --no-deps symlink_data

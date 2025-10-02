@@ -1,0 +1,4 @@
+[console_scripts]
+fsm_node = robot_control.fsm_node:main
+obstacle_node = robot_control.obstacle_node:main
+teleop_node = robot_control.teleop_node:main

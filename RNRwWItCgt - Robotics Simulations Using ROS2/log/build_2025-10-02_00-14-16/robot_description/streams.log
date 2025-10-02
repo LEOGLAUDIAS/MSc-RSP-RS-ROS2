@@ -1,0 +1,15 @@
+[2.451s] Invoking command in '/home/user/ros2_ws/build/robot_description': PYTHONPATH=/home/user/ros2_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/robot_description/build --no-deps symlink_data
+[3.452s] running develop
+[4.159s] running egg_info
+[4.194s] writing robot_description.egg-info/PKG-INFO
+[4.194s] writing dependency_links to robot_description.egg-info/dependency_links.txt
+[4.195s] writing requirements to robot_description.egg-info/requires.txt
+[4.195s] writing top-level names to robot_description.egg-info/top_level.txt
+[4.256s] reading manifest file 'robot_description.egg-info/SOURCES.txt'
+[4.277s] writing manifest file 'robot_description.egg-info/SOURCES.txt'
+[4.294s] running build_ext
+[4.356s] Creating /home/user/ros2_ws/install/robot_description/lib/python3.10/site-packages/robot-description.egg-link (link to .)
+[4.357s] 
+[4.357s] Installed /home/user/ros2_ws/build/robot_description
+[4.358s] running symlink_data
+[4.400s] Invoked command in '/home/user/ros2_ws/build/robot_description' returned '0': PYTHONPATH=/home/user/ros2_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/robot_description/build --no-deps symlink_data

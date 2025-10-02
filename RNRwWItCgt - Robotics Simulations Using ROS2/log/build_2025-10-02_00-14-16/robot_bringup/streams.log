@@ -1,0 +1,20 @@
+[2.481s] Invoking command in '/home/user/ros2_ws/build/robot_bringup': PYTHONPATH=/home/user/ros2_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/robot_bringup/build --no-deps symlink_data
+[2.870s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[2.870s]   warnings.warn(msg)
+[3.333s] running develop
+[3.998s] running egg_info
+[4.028s] writing robot_bringup.egg-info/PKG-INFO
+[4.029s] writing dependency_links to robot_bringup.egg-info/dependency_links.txt
+[4.029s] writing requirements to robot_bringup.egg-info/requires.txt
+[4.030s] writing top-level names to robot_bringup.egg-info/top_level.txt
+[4.125s] reading manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[4.131s] writing manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[4.201s] running build_ext
+[4.201s] Creating /home/user/ros2_ws/install/robot_bringup/lib/python3.10/site-packages/robot-bringup.egg-link (link to .)
+[4.202s] 
+[4.202s] Installed /home/user/ros2_ws/build/robot_bringup
+[4.202s] running symlink_data
+[4.204s] creating /home/user/ros2_ws/install/robot_bringup/share/robot_bringup/world
+[4.204s] creating /home/user/ros2_ws/install/robot_bringup/share/robot_bringup/config
+[4.204s] creating /home/user/ros2_ws/install/robot_bringup/share/robot_bringup/urdf
+[4.305s] Invoked command in '/home/user/ros2_ws/build/robot_bringup' returned '0': PYTHONPATH=/home/user/ros2_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/robot_bringup/build --no-deps symlink_data

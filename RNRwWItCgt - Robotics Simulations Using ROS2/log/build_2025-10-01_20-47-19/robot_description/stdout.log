@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing robot_description.egg-info/PKG-INFO
+writing dependency_links to robot_description.egg-info/dependency_links.txt
+writing requirements to robot_description.egg-info/requires.txt
+writing top-level names to robot_description.egg-info/top_level.txt
+reading manifest file 'robot_description.egg-info/SOURCES.txt'
+writing manifest file 'robot_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/user/ros2_ws/install/robot_description/lib/python3.10/site-packages/robot-description.egg-link (link to .)
+
+Installed /home/user/ros2_ws/build/robot_description
+running symlink_data
+creating /home/user/ros2_ws/install/robot_description/share/robot_description/urdf
+symbolically linking /home/user/ros2_ws/build/robot_description/urdf/two_wheeler_robot.urdf -> /home/user/ros2_ws/install/robot_description/share/robot_description/urdf
+creating /home/user/ros2_ws/install/robot_description/share/robot_description/world
+symbolically linking /home/user/ros2_ws/build/robot_description/world/maze_world.world -> /home/user/ros2_ws/install/robot_description/share/robot_description/world

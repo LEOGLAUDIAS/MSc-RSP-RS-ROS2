@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: robot_description
+Version: 0.0.1
+Summary: URDF and world description for two_wheeler_robot
+Maintainer: student
+Maintainer-email: student@example.com
+License: Apache-2.0
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

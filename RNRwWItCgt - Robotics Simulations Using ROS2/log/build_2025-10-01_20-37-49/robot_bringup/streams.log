@@ -1,0 +1,20 @@
+[1.092s] Invoking command in '/home/user/ros2_ws/build/robot_bringup': PYTHONPATH=/home/user/ros2_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/robot_bringup/build --no-deps symlink_data
+[1.571s] running develop
+[1.904s] running egg_info
+[1.922s] writing robot_bringup.egg-info/PKG-INFO
+[1.922s] writing dependency_links to robot_bringup.egg-info/dependency_links.txt
+[1.923s] writing requirements to robot_bringup.egg-info/requires.txt
+[1.923s] writing top-level names to robot_bringup.egg-info/top_level.txt
+[1.982s] reading manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[1.984s] writing manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[2.015s] running build_ext
+[2.015s] Creating /home/user/ros2_ws/install/robot_bringup/lib/python3.10/site-packages/robot-bringup.egg-link (link to .)
+[2.015s] 
+[2.015s] Installed /home/user/ros2_ws/build/robot_bringup
+[2.016s] running symlink_data
+[2.016s] creating /home/user/ros2_ws/install/robot_bringup/share/robot_bringup/launch
+[2.016s] symbolically linking /home/user/ros2_ws/build/robot_bringup/launch/obstacle.launch.py -> /home/user/ros2_ws/install/robot_bringup/share/robot_bringup/launch
+[2.016s] symbolically linking /home/user/ros2_ws/build/robot_bringup/launch/fsm.launch.py -> /home/user/ros2_ws/install/robot_bringup/share/robot_bringup/launch
+[2.016s] symbolically linking /home/user/ros2_ws/build/robot_bringup/launch/teleop.launch.py -> /home/user/ros2_ws/install/robot_bringup/share/robot_bringup/launch
+[2.017s] symbolically linking /home/user/ros2_ws/build/robot_bringup/launch/spawn_robot.launch.py -> /home/user/ros2_ws/install/robot_bringup/share/robot_bringup/launch
+[2.061s] Invoked command in '/home/user/ros2_ws/build/robot_bringup' returned '0': PYTHONPATH=/home/user/ros2_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/robot_bringup/build --no-deps symlink_data

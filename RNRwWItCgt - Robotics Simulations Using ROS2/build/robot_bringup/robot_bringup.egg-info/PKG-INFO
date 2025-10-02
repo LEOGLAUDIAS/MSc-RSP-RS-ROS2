@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: robot_bringup
+Version: 0.0.0
+Summary: Bringup package to launch robot, FSM, teleop, obstacle avoidance
+Maintainer: Your Name
+Maintainer-email: you@email.com
+License: Apache-2.0
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

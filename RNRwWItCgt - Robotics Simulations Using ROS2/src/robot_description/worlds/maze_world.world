@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="maze_world">
+
+    <!-- Lighting -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Ground plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Square boundary walls (5x5) -->
+    <include>
+      <uri>model://unit_box</uri>
+      <pose>5 0 0.5 0 0 0</pose> <!-- east wall -->
+      <scale>0.1 10 1</scale>
+    </include>
+
+    <include>
+      <uri>model://unit_box</uri>
+      <pose>-5 0 0.5 0 0 0</pose> <!-- west wall -->
+      <scale>0.1 10 1</scale>
+    </include>
+
+    <include>
+      <uri>model://unit_box</uri>
+      <pose>0 5 0.5 0 0 0</pose> <!-- north wall -->
+      <scale>10 0.1 1</scale>
+    </include>
+
+    <include>
+      <uri>model://unit_box</uri>
+      <pose>0 -5 0.5 0 0 0</pose> <!-- south wall -->
+      <scale>10 0.1 1</scale>
+    </include>
+
+    <!-- Inner obstacles -->
+    <include>
+      <uri>model://unit_box</uri>
+      <pose>2 0 0.5 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://unit_box</uri>
+      <pose>-2 0 0.5 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://unit_cylinder</uri>
+      <pose>1 2 0.5 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://unit_cylinder</uri>
+      <pose>-1 -2 0.5 0 0 0</pose>
+    </include>
+
+    <!-- Physics -->
+    <physics name="default_physics" type="ode">
+      <gravity>0 0 -9.81</gravity>
+      <max_step_size>0.001</max_step_size>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+
+  </world>
+</sdf>
